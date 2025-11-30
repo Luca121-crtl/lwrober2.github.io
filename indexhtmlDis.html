@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Robertson Designs – Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio site for Robertson Designs – student graphic designer specializing in branding, social media, and web graphics." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">
+      <span class="logo-mark">RD</span>
+      <span class="logo-text">Robertson Designs</span>
+    </div>
+    <nav class="main-nav">
+      <a href="#home">Home</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <h1>Visual Design for Brands That Want to Stand Out</h1>
+        <p>
+          Hi, I’m Lucas, a graphic design student who loves turning ideas into clean,
+          modern visuals. I design logos, social media content, and simple web layouts
+          that feel intentional, not cluttered.
+        </p>
+        <a href="#portfolio" class="btn">View My Work</a>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <h2>Portfolio Highlights</h2>
+      <p class="section-intro">
+        Here are a few sample projects that represent the kind of work I like to do.
+        Each piece focuses on clear hierarchy, strong typography, and simple color palettes.
+      </p>
+
+      <div class="card-grid">
+        <article class="card">
+          <h3>Brand Identity – “Nibl” Food App</h3>
+          <p>
+            Logo concept and app icon for a food discovery app. The goal was a playful but
+            clean wordmark with a simple symbol that would look good at small sizes.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Social Media Kit – Tutoring Company</h3>
+          <p>
+            Instagram post and story templates designed to keep fonts, colors, and layouts
+            consistent while highlighting student success stories and announcements.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Landing Page – Mindfulness App</h3>
+          <p>
+            Single-page layout with calm colors, rounded cards, and clear calls to action
+            to encourage users to download the app and start a daily habit.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="services" class="section section-alt">
+      <h2>Services</h2>
+      <p class="section-intro">
+        These are example packages I could offer to a small business, startup, or personal brand.
+      </p>
+
+      <div class="card-grid">
+        <article class="card">
+          <h3>Logo Starter</h3>
+          <ul>
+            <li>Main logo + simple icon</li>
+            <li>Basic color palette & font suggestions</li>
+            <li>Final files in PNG and SVG</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Social Media Bundle</h3>
+          <ul>
+            <li>Post and story templates</li>
+            <li>Cover graphics for 1–2 platforms</li>
+            <li>Simple style guide PDF</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Mini Web Layout</h3>
+          <ul>
+            <li>One-page layout mockup</li>
+            <li>Hero, about, services, and contact sections</li>
+            <li>Exported assets ready for a developer</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p class="section-intro">
+        This is a practice contact form to show how a real client could reach out. Feel free
+        to imagine what you’d ask for if you were hiring a designer.
+      </p>
+
+      <form class="contact-form">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required>
+        </label>
+
+        <label>
+          Project Type
+          <select name="project">
+            <option value="">Select one</option>
+            <option value="logo">Logo / Branding</option>
+            <option value="social">Social Media Graphics</option>
+            <option value="web">Web Layout / UI</option>
+            <option value="other">Something Else</option>
+          </select>
+        </label>
+
+        <label>
+          Message
+          <textarea name="message" rows="4" placeholder="Tell me a bit about your project"></textarea>
+        </label>
+
+        <button type="submit" class="btn">Send Message (Demo)</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2025 Robertson Designs. Project site for CIS course.</p>
+  </footer>
+</body>
+</html>
